@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 
-// EXERCICIO FEITO COM O PROFESSOR SUBSTITUTO
 
 int main()
 {
