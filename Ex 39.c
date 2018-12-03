@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Não sabia fazer, fui acompanhando pela net, porem mesmo assim n consegui (ex resolvido no crtl c/ crtl v, my bad douglas)
+
    typedef struct
     {
         char nome[50];
