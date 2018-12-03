@@ -4,13 +4,20 @@
 
 int main()
 {
-	int valor,i;
-	printf("Informe o valor: ");
-	scanf("%d", &valor);
+	int valor,i,tab;
 	
-	for(i = 1; i <= 10; i++)
+
+
+	
+	for(i = 0; i < 20; i++)
 	{
-		printf("\n%d x %d = %d", i, valor, (i * valor));
+		printf("Informe o valor: \n");
+		scanf("%d", &valor);
+	
+	for (tab = 1; tab <= valor; tab ++)
+	{
+		printf("%d x %d = %d\n", tab, valor, (tab * valor));
+	}
 	}
 	
 	
