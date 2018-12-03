@@ -12,9 +12,15 @@ for (i = 1; i <= valor; i++)
 {
 	printf("Informe os valores: ");
 	scanf("%d", &valor2);
-	soma = soma + valor2;
+		if (valor2 % 2 == 0)
+	{
+			soma = soma + valor2;
+		
+		
+	}
 }
-printf ("Soma = %d", soma);
+	printf ("Soma = %d", soma);
+
 	
 	
 	
