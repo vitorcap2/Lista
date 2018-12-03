@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*Escrever um programa que cadastre o nome, a altura, o peso, o cpf e sexo de algumas pessoas.
-Com os dados cadastrados, em seguida localizar uma pessoas através do seu CPF e imprimir o seu IMC.*/
-
-
    typedef struct
     {
         char nome[50];
@@ -103,7 +99,7 @@ int main()
                         if (IMC >32.2)                {goto OBESO;}
                         goto INICIO;
                         }
-                    if (code!=imcs[j].cpf)
+                    if (code!=imcs[i].cpf)
                         {
                         printf("\n >> CPF INVALIDO! <<");
                         getch();
@@ -122,7 +118,7 @@ int main()
                     getch();
                     goto REFAZ;
             SOBREPESO: printf("\n O IMC eh: %.2f",imcs[j].peso/h);
-                       printf("\n ATENÇÃO SOBREPESO!!");
+                       printf("\n ATENÃ‡ÃƒO SOBREPESO!!");
                     getch();
                     goto REFAZ;
             OBESO: printf("\n O IMC eh: %.2f",imcs[j].peso/h);
